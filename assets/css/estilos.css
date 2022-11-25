@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #202529;
+}
+
+main,
+.grafico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%
+}
+.grafico {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.titulo {
+    color: white;
+}
+
+.contenedor {
+    color: white;
+    background-color: #6c757d;
+    padding: 4%;
+    border-radius: 0.5rem;
+}
+
+.boton,
+.moneda,
+.clp {
+    margin-top: 5%;
+}
+
